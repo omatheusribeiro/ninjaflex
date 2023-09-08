@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ninjaflex", "ninjaflex\ninjaflex.csproj", "{08713138-33EF-479D-866A-3BFE6A72B277}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ninjaflex-back", "ninjaflex-back\ninjaflex-back.csproj", "{D93D068E-2CBB-44BF-BE1E-A8777FEC743A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{08713138-33EF-479D-866A-3BFE6A72B277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{08713138-33EF-479D-866A-3BFE6A72B277}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{08713138-33EF-479D-866A-3BFE6A72B277}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{08713138-33EF-479D-866A-3BFE6A72B277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D93D068E-2CBB-44BF-BE1E-A8777FEC743A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93D068E-2CBB-44BF-BE1E-A8777FEC743A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93D068E-2CBB-44BF-BE1E-A8777FEC743A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93D068E-2CBB-44BF-BE1E-A8777FEC743A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8349C224-D4BB-4BE6-80A4-7B4ABD7491C7}
+		SolutionGuid = {E6F8921E-50F4-4B60-BE9A-0C634D64F2AD}
 	EndGlobalSection
 EndGlobal

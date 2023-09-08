@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ninjaflex")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ninjaflex-back")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("ninjaflex")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ninjaflex")]
+[assembly: System.Reflection.AssemblyProductAttribute("ninjaflex-back")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ninjaflex-back")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

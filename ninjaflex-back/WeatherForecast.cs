@@ -1,4 +1,4 @@
-namespace ninjaflex
+namespace ninjaflex_back
 {
     public class WeatherForecast
     {

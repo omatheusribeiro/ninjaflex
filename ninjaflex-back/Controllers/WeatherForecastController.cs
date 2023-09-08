@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ninjaflex.Controllers
+namespace ninjaflex_back.Controllers
 {
     [ApiController]
     [Route("[controller]")]

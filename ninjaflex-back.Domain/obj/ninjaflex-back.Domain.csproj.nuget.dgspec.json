@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matheus\\Desktop\\Nova pasta\\ninjaflex\\ninjaflex-back\\ninjaflex-back.csproj": {}
+    "C:\\Users\\Matheus\\Desktop\\Nova pasta\\ninjaflex\\ninjaflex-back.Domain\\ninjaflex-back.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matheus\\Desktop\\Nova pasta\\ninjaflex\\ninjaflex-back\\ninjaflex-back.csproj": {
+    "C:\\Users\\Matheus\\Desktop\\Nova pasta\\ninjaflex\\ninjaflex-back.Domain\\ninjaflex-back.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matheus\\Desktop\\Nova pasta\\ninjaflex\\ninjaflex-back\\ninjaflex-back.csproj",
-        "projectName": "ninjaflex-back",
-        "projectPath": "C:\\Users\\Matheus\\Desktop\\Nova pasta\\ninjaflex\\ninjaflex-back\\ninjaflex-back.csproj",
+        "projectUniqueName": "C:\\Users\\Matheus\\Desktop\\Nova pasta\\ninjaflex\\ninjaflex-back.Domain\\ninjaflex-back.Domain.csproj",
+        "projectName": "ninjaflex-back.Domain",
+        "projectPath": "C:\\Users\\Matheus\\Desktop\\Nova pasta\\ninjaflex\\ninjaflex-back.Domain\\ninjaflex-back.Domain.csproj",
         "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matheus\\Desktop\\Nova pasta\\ninjaflex\\ninjaflex-back\\obj\\",
+        "outputPath": "C:\\Users\\Matheus\\Desktop\\Nova pasta\\ninjaflex\\ninjaflex-back.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,16 +39,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.4, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -61,9 +51,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

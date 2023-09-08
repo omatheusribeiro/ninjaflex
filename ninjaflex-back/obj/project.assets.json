@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matheus\\Desktop\\Nova pasta\\Nova pasta\\ninjaflex-back\\ninjaflex-back\\ninjaflex-back.csproj",
+      "projectUniqueName": "C:\\Users\\Matheus\\Desktop\\Nova pasta\\ninjaflex\\ninjaflex-back\\ninjaflex-back.csproj",
       "projectName": "ninjaflex-back",
-      "projectPath": "C:\\Users\\Matheus\\Desktop\\Nova pasta\\Nova pasta\\ninjaflex-back\\ninjaflex-back\\ninjaflex-back.csproj",
+      "projectPath": "C:\\Users\\Matheus\\Desktop\\Nova pasta\\ninjaflex\\ninjaflex-back\\ninjaflex-back.csproj",
       "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matheus\\Desktop\\Nova pasta\\Nova pasta\\ninjaflex-back\\ninjaflex-back\\obj\\",
+      "outputPath": "C:\\Users\\Matheus\\Desktop\\Nova pasta\\ninjaflex\\ninjaflex-back\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",

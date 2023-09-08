@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gKoJ6Jr78AducV0kKHjqzIOpCcCh3LlOIpBGVgYcQmRG3VCB+SAUVq9GZOIPJg3Tbni6Rz8CWASB0hr0b0JHKA==",
+  "dgSpecHash": "9eIaSgq7Ax2SFbcXgqNcpQlGUW6nTdJwiKHMP1j4LMaM8rabzn97MwloPa3t8Lrb24GEAf95wQ82LekN/UVQJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matheus\\Desktop\\Nova pasta\\Nova pasta\\ninjaflex-back\\ninjaflex-back\\ninjaflex-back.csproj",
+  "projectFilePath": "C:\\Users\\Matheus\\Desktop\\Nova pasta\\ninjaflex\\ninjaflex-back\\ninjaflex-back.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
     "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

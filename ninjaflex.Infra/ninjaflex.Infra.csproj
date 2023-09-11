@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ninjaflex.Application\ninjaflex.Application.csproj" />
+    <ProjectReference Include="..\ninjaflex.Data\ninjaflex.Data.csproj" />
+    <ProjectReference Include="..\ninjaflex.Domain\ninjaflex.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

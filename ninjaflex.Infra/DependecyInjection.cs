@@ -2,6 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ninjaflex.Data.Context;
+using ninjaflex.Data.Interfaces;
+using ninjaflex.Data.Repositories;
 
 namespace ninjaflex.Infra
 {

@@ -18,11 +18,11 @@ namespace ninjaflex.Infra
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
-            services.AddScoped<IUsuarioService, UsuarioService>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IUserService, UserService>();
 
-            services.AddScoped<ITipoUsuarioRepository, TipoUsuarioRepository>();
-            services.AddScoped<ITipoUsuarioService, TipoUsuarioService>();
+            services.AddScoped<IUserTypeRepository, UserTypeRepository>();
+            services.AddScoped<IUserTypeService, UserTypeService>();
 
             return services;
         }

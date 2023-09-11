@@ -10,9 +10,17 @@ O Ninjaflex é um sistema de vendas robusto e flexível, projetado para atender 
 
 Este repositório é organizado da seguinte forma:
 
-- `ninjaflex.Back`: O código-fonte do servidor, desenvolvido com .NET Core 7, incluindo API, autenticação, gerenciamento de vendas e muito mais.
+- `ninjaflex.API`: Essa camada é responsável por gerenciar a API da aplicação.
 
-- `ninjaflex.Front`: O código-fonte do cliente, desenvolvido com Angular 12, contendo as telas de interface do usuário para gerenciar produtos, pedidos e clientes.
+- `ninjaflex.Application`: Essa camada é responsável por gerenciar todos os serviços da aplicação.
+
+- `ninjaflex.Data`: Essa camada é responsável por gerenciar os dados da aplicação.
+
+- `ninjaflex.Domain`: Essa camada é responsável por gerenciar os domínios da aplicação.
+
+- `ninjaflex.Front`: Essa camada é responsável por gerenciar o front-end da aplicação.
+
+- `ninjaflex.Front`: Essa camada é responsável por gerenciar a infraestrutura da aplicação.
 
 ## Pré-requisitos
 
@@ -29,14 +37,14 @@ Certifique-se de instalar todas as dependências antes de prosseguir.
 
 O Ninjaflex utiliza o SQL Server com o Code First para gerenciar as migrações do banco de dados. Antes de iniciar o aplicativo, siga estas etapas:
 
-1. Abra um terminal na pasta `ninjaflex.Back`.
+1. Abra um terminal na pasta `ninjaflex.Data`.
 2. Execute `dotnet ef database update` para aplicar as migrações e criar o banco de dados.
 
 ## Executando o Aplicativo
 
 Agora que você configurou o banco de dados, siga estas etapas para executar o Ninjaflex:
 
-1. Abra um terminal na pasta `ninjaflex.Back`.
+1. Abra um terminal na pasta `ninjaflex.API`.
 2. Execute `dotnet run` para iniciar o servidor.
 3. Abra outro terminal na pasta `ninjaflex.Front`.
 4. Execute `npm install` para instalar as dependências do Angular.
@@ -50,7 +58,7 @@ Se você deseja contribuir para o Ninjaflex, fique à vontade para abrir um prob
 
 ## Licença
 
-Este projeto é licenciado sob a [Licença MIT](LICENSE.md).
+Este projeto é licenciado sob a [Licença Apache 2.0](LICENSE.md).
 
 ---
 

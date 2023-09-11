@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ninjaflex", "ninjaflex\ninjaflex.csproj", "{08DC65AE-3850-412E-A5C0-BB8E17CB1948}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ninjaflex.API", "ninjaflex.API\ninjaflex.API.csproj", "{702B7554-39F4-427F-9B30-3C480ABA4227}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ninjaflex.Application", "ninjaflex.Application\ninjaflex.Application.csproj", "{935BA317-44C7-4FDA-8DD8-0120F3C06465}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ninjaflex.Data", "ninjaflex.Data\ninjaflex.Data.csproj", "{EB1C8159-DFC1-47D3-9478-821EC11FD233}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ninjaflex.Domain", "ninjaflex.Domain\ninjaflex.Domain.csproj", "{95A0D117-0C7A-4BD4-A037-3D5EFB980C88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ninjaflex.Infra", "ninjaflex.Infra\ninjaflex.Infra.csproj", "{A07EA5CC-8990-4B76-9270-7A052A5B24CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{08DC65AE-3850-412E-A5C0-BB8E17CB1948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{08DC65AE-3850-412E-A5C0-BB8E17CB1948}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{08DC65AE-3850-412E-A5C0-BB8E17CB1948}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{08DC65AE-3850-412E-A5C0-BB8E17CB1948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{702B7554-39F4-427F-9B30-3C480ABA4227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{702B7554-39F4-427F-9B30-3C480ABA4227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{702B7554-39F4-427F-9B30-3C480ABA4227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{702B7554-39F4-427F-9B30-3C480ABA4227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{935BA317-44C7-4FDA-8DD8-0120F3C06465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{935BA317-44C7-4FDA-8DD8-0120F3C06465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{935BA317-44C7-4FDA-8DD8-0120F3C06465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{935BA317-44C7-4FDA-8DD8-0120F3C06465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB1C8159-DFC1-47D3-9478-821EC11FD233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1C8159-DFC1-47D3-9478-821EC11FD233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1C8159-DFC1-47D3-9478-821EC11FD233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1C8159-DFC1-47D3-9478-821EC11FD233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A0D117-0C7A-4BD4-A037-3D5EFB980C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A0D117-0C7A-4BD4-A037-3D5EFB980C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A0D117-0C7A-4BD4-A037-3D5EFB980C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A0D117-0C7A-4BD4-A037-3D5EFB980C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07EA5CC-8990-4B76-9270-7A052A5B24CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07EA5CC-8990-4B76-9270-7A052A5B24CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07EA5CC-8990-4B76-9270-7A052A5B24CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07EA5CC-8990-4B76-9270-7A052A5B24CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

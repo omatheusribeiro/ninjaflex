@@ -2,6 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ninjaflex.Application.Interfaces;
+using ninjaflex.Application.Services;
 using ninjaflex.Data.Context;
 using ninjaflex.Data.Interfaces;
 using ninjaflex.Data.Repositories;

@@ -1,6 +1,6 @@
 ﻿using ninjaflex.Application.Mappings;
 
-namespace ninjaflex.API.MappingConfig
+namespace ninjaflex.API.Config.MappingConfig
 {
     public static class AutoMapperConfig
     {

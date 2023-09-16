@@ -59,7 +59,3 @@ Se você deseja contribuir para o Ninjaflex, fique à vontade para abrir um prob
 ## Licença
 
 Este projeto é licenciado sob a [Licença Apache 2.0](LICENSE.md).
-
----
-
-Sinta-se à vontade para personalizar este README conforme suas necessidades específicas e adicionar informações adicionais, como a documentação detalhada do projeto, instruções de implantação, e assim por diante. Boa sorte com o desenvolvimento do Ninjaflex!

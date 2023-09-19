@@ -1,61 +1,61 @@
-# Ninjaflex - Sistema de Vendas
+# Ninjaflex - Sales System
 
-Bem-vindo ao repositório do projeto Ninjaflex, um sistema de vendas desenvolvido com .NET Core 7 e Angular 12. Este projeto utiliza o SQL Server com Code First para gerenciar as migrações do banco de dados.
+Welcome to the Ninjaflex project repository, a sales system developed with .NET Core 7 and Angular 12. This project uses SQL Server with Code First to manage database migrations.
 
-## Visão Geral
+## Overview
 
-O Ninjaflex é um sistema de vendas robusto e flexível, projetado para atender às necessidades do seu negócio. Ele combina a poderosa capacidade de .NET Core 7 no lado do servidor com a rica experiência de usuário do Angular 12 no front-end.
+Ninjaflex is a robust and flexible sales system designed to meet your business needs. It combines the powerful capabilities of .NET Core 7 on the server-side with the rich user experience of Angular 12 on the front-end.
 
-## Estrutura do Repositório
+## Repository Structure
 
-Este repositório é organizado da seguinte forma:
+This repository is organized as follows:
 
-- `ninjaflex.API`: Essa camada é responsável por gerenciar a API da aplicação.
+- `ninjaflex.API`: This layer is responsible for managing the application's API.
 
-- `ninjaflex.Application`: Essa camada é responsável por gerenciar todos os serviços da aplicação.
+- `ninjaflex.Application`: This layer is responsible for managing all application services.
 
-- `ninjaflex.Data`: Essa camada é responsável por gerenciar os dados da aplicação.
+- `ninjaflex.Data`: This layer is responsible for managing the application's data.
 
-- `ninjaflex.Domain`: Essa camada é responsável por gerenciar os domínios da aplicação.
+- `ninjaflex.Domain`: This layer is responsible for managing the application's domains.
 
-- `ninjaflex.Front`: Essa camada é responsável por gerenciar o front-end da aplicação.
+- `ninjaflex.Front`: This layer is responsible for managing the application's front-end.
 
-- `ninjaflex.Front`: Essa camada é responsável por gerenciar a infraestrutura da aplicação.
+- `ninjaflex.Infra`: This layer is responsible for managing the application's infrastructure.
 
-## Pré-requisitos
+## Prerequisites
 
-Antes de começar a usar o Ninjaflex, você precisará ter instalado o seguinte:
+Before you start using Ninjaflex, you'll need to have the following installed:
 
 - [.NET Core 7](https://dotnet.microsoft.com/download/dotnet/7.0)
-- [Node.js](https://nodejs.org/) e [npm](https://www.npmjs.com/)
+- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
 - [Angular CLI](https://angular.io/cli)
 - [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 
-Certifique-se de instalar todas as dependências antes de prosseguir.
+Make sure to install all dependencies before proceeding.
 
-## Configuração do Banco de Dados
+## Database Configuration
 
-O Ninjaflex utiliza o SQL Server com o Code First para gerenciar as migrações do banco de dados. Antes de iniciar o aplicativo, siga estas etapas:
+Ninjaflex uses SQL Server with Code First to manage database migrations. Before running the application, follow these steps:
 
-1. Abra um terminal na pasta `ninjaflex.Data`.
-2. Execute `dotnet ef database update` para aplicar as migrações e criar o banco de dados.
+1. Open a terminal in the `ninjaflex.Data` folder.
+2. Run `dotnet ef database update` to apply migrations and create the database.
 
-## Executando o Aplicativo
+## Running the Application
 
-Agora que você configurou o banco de dados, siga estas etapas para executar o Ninjaflex:
+Now that you've configured the database, follow these steps to run Ninjaflex:
 
-1. Abra um terminal na pasta `ninjaflex.API`.
-2. Execute `dotnet run` para iniciar o servidor.
-3. Abra outro terminal na pasta `ninjaflex.Front`.
-4. Execute `npm install` para instalar as dependências do Angular.
-5. Execute `ng serve` para iniciar o servidor de desenvolvimento do Angular.
+1. Open a terminal in the `ninjaflex.API` folder.
+2. Run `dotnet run` to start the server.
+3. Open another terminal in the `ninjaflex.Front` folder.
+4. Run `npm install` to install Angular dependencies.
+5. Run `ng serve` to start the Angular development server.
 
-Acesse o aplicativo em [http://localhost:4200](http://localhost:4200).
+Access the application at [http://localhost:4200](http://localhost:4200).
 
-## Contribuição
+## Contribution
 
-Se você deseja contribuir para o Ninjaflex, fique à vontade para abrir um problema ou enviar uma solicitação de pull request. Agradecemos a sua colaboração!
+If you'd like to contribute to Ninjaflex, feel free to open an issue or submit a pull request. We appreciate your collaboration!
 
-## Licença
+## License
 
-Este projeto é licenciado sob a [Licença Apache 2.0](LICENSE.md).
+This project is licensed under the [Apache 2.0 License](LICENSE.md).
